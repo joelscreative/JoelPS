@@ -1,56 +1,21 @@
-function scrollFooter(scrollY, heightFooter)
-{
-    console.log(scrollY);
-    console.log(heightFooter);
-
-    if(scrollY >= heightFooter)
-    {
-        $('footer').css({
-            'bottom' : '0px'
-        });
-    }
-    else
-    {
-        $('footer').css({
-            'bottom' : '-' + heightFooter + 'px'
-        });
-    }
-}
-
-$(window).load(function(){
-    var windowHeight        = $(window).height(),
-        footerHeight        = $('footer').height(),
-        heightDocument      = (windowHeight) + ($('.content').height()) + ($('footer').height()) - 20;
-
-    // Definindo o tamanho do elemento pra animar
-    $('#scroll-animate, #scroll-animate-main').css({
-        'height' :  heightDocument - 300 + 'px'
-    });
-
-    // Definindo o tamanho dos elementos header e conteúdo
-    $('header').css({
-        'height' : windowHeight + 'px',
-        'line-height' : windowHeight + 'px'
-    });
-
-    $('.wrapper-parallax').css({
-        'margin-top' : 330 + 'px'
-    });
-
-    scrollFooter(window.scrollY, footerHeight);
-
-    // ao dar rolagem
-    window.onscroll = function(){
-        var scroll = window.scrollY;
-
-        $('#scroll-animate-main').css({
-            'top' : '-' + scroll + 'px'
-        });
-        
-        $('header').css({
-            'background-position-y' : 50 - (scroll * 100 / heightDocument) + '%'
-        });
-
-        scrollFooter(scroll, footerHeight);
-    }
-});
+$(document).ready(function(){
+   // cache the window object
+   $window = $(window);
+ 
+   $('section[data-type="background"]').each(function(){
+     // declare the variable to affect the defined data-type
+     var $scroll = $(this);
+                     
+      $(window).scroll(function() {
+        // HTML5 proves useful for helping with creating JS functions!
+        // also, negative value because we're scrolling upwards                             
+        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+         
+        // background position
+        var coords = '50% '+ yPos + 'px';
+ 
+        // move the background
+        $scroll.css({ backgroundPosition: coords });    
+      }); // end window scroll
+   });  // end section function
+}); // close out script
