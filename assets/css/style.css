@@ -43,6 +43,7 @@
 
 .mt {
   /*margin-top: 100px;*/
+  margin-bottom: 50px;
 }
 
 .mb {
@@ -117,6 +118,17 @@ h2 {
 /*  transition: 0.6s ease;
   transform-style: preserve-3d;
   perspective: 1000;*/
+ }
+
+ #works {
+  padding-bottom:100px;
+
+ }
+
+ .centered {
+  vertical-align: center;
+  text-align: center;
+  margin: 0 auto;
  }
 
 /* .logo:hover {
@@ -363,34 +375,57 @@ p.japanese {
 
   /*RESIZE HEADER FOR RESPONSIVE*/
   #headerwrap {
-  background: url(../img/cubeillo.jpg) no-repeat center top;
-  /* background: transparent; */
+  /*  background: url(../img/cubeillo.jpg) repeat-y center top fixed;*/
+  background: transparent;
   margin-top: 0px;
-  padding-top: 60px;
+  padding-top: 70px;
+  padding-bottom:50px;
   text-align:center;
-  background-attachment:fixed;
-  background-position: center center;
-  min-height: 500px;
+  /*background-attachment: fixed;*/
+  /*background-position: center center;*/
+  background-position: fixed;
+  height: 500px;
   width: 100%;
-  -webkit-background-size:inherit;
-  -moz-background-size:inherit;
-  -o-background-size:inherit;
-  background-size:inherit;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
 }
 
 #cvwrap {
-  background:url(../img/cubeillobw.jpg) repeat-y center top fixed;
+  background: url(../img/cubeillobw.jpg) repeat-y center top fixed;
+  background: transparent;
   margin-top: 0px;
-  padding-top: 100px;
+  padding-top: 70px;
+  padding-bottom:50px;
   text-align:center;
   /*background-attachment: fixed;*/
-  background-position: center center;
-  height: 400px;
+  /*background-position: center center;*/
+  background-position: fixed;
+  height: 350px;
   width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: auto;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+#aboutwrap {
+/*  background: url(../img/cubeillo.jpg) repeat-y center top fixed;*/
+  background: transparent;
+  margin-top: 0px;
+  padding-top: 70px;
+  padding-bottom:50px;
+  text-align:center;
+  /*background-attachment: fixed;*/
+  /*background-position: center center;*/
+  background-position: fixed;
+  height: 500px;
+  width: 100%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
 }
 
 #fixedbackground{
@@ -495,10 +530,6 @@ p.japanese {
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;*/
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -547,10 +578,10 @@ p.japanese {
 }
 
 #joelspic {
-  /*background: url(.../img/joelspic.jpg) no-repeat center top;*/
+  background: url(/assets/img/joelspic.jpg) no-repeat center top;
   vertical-align: center;
-  margin-top: 120px;
-  margin-bottom: 70px;
+  margin-top: 110px;
+  margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
   height: 200px;
@@ -558,6 +589,15 @@ p.japanese {
   border:none;
   border-radius: 100px;
   background-size: cover;
+}
+
+#joelspic h1{
+
+  vertical-align: center;
+  text-align: center;
+  color:#FFF;
+  line-height: 4.2em;
+  font-size: 2.
 }
 
 
@@ -695,12 +735,12 @@ h1{
 
 .headersgrey{
   background-color:#DCDCDC;
-  width:100%;
+  width: 100%;
   height: 70px;
-  color:#FFF;
-  line-height: 2.3em;
-  font-size: 3rem;
-  letter-spacing: 1.5rem;
+  color: #FFF;
+  line-height: 3.3em;
+  font-size: 2rem;
+  letter-spacing: 2rem;
 }
 
 header h1{}
