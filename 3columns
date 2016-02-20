@@ -1,0 +1,9 @@
+.icon {
+	
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	background:078dff;
+}
+
+<div class="icon"><a href="http://joelps.com/web.html"><img src="/assets/img/smartphone96.png"></a></div>

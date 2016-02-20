@@ -1,0 +1,242 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"al",
+				"vertical-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Joel/Desktop/JoelPS/assets/js/parallax.js",
+		"/Users/Joel/Desktop/JoelPS/rubyred.html",
+		"/Users/Joel/Desktop/JoelPS/EC.html",
+		"/Users/Joel/Desktop/JoelPS/ami.html",
+		"/Users/Joel/Desktop/JoelPS/assets/css/bootstrap.css",
+		"/Users/Joel/Desktop/JoelPS/index.html",
+		"/Users/Joel/Desktop/JoelPS/assets/css/font-awesome.min.css",
+		"/Users/Joel/Desktop/JoelPS/assets/css/style.css",
+		"/Users/Joel/Desktop/JoelPS/about.html",
+		"/Users/Joel/Desktop/JoelPS/ABC.html",
+		"/Users/Joel/Desktop/JoelPS/indexold.html",
+		"/Users/Joel/Desktop/JoelPS/assets/css/stylecopy.css",
+		"/Users/Joel/Desktop/JoelPS/work.html",
+		"/Users/Joel/Desktop/JoelPS/indexcopy.html",
+		"/Users/Joel/Desktop/JoelPS/assets/js/magnific.js",
+		"/Users/Joel/Desktop/JoelPS/parallax.html",
+		"/Users/Joel/Desktop/SITE BACKUP/www/ami/index.html",
+		"/Users/Joel/Desktop/SITE BACKUP/www/ami/styles/main.css",
+		"/Users/Joel/Desktop/JoelPS/index copy.html",
+		"/Users/Joel/Desktop/JoelPS/assets/css/style copy.css",
+		"/Users/Joel/Desktop/JoelPS/assets/js/bootstrap.min.js",
+		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hover",
+			"16a085",
+			"#16a085",
+			"270px",
+			"font",
+			"30px",
+			"col-lg-2",
+			"h1",
+			"works",
+			"h2",
+			".social",
+			"row",
+			"row centered",
+			"footer",
+			".wrapper-",
+			"mb",
+			"916",
+			"960",
+			"social",
+			"body",
+			"p",
+			"h4",
+			"DESIGNER",
+			"30px",
+			"row centered",
+			"h4",
+			"col-lg-2",
+			"container",
+			".container",
+			"navbar",
+			".container",
+			"44",
+			"col-lg-2",
+			"@media",
+			"footerwrap",
+			"@",
+			"wrapper-parallax",
+			"300",
+			".container",
+			"250",
+			".content",
+			"footer",
+			"@media footer",
+			".navbar-toggle",
+			"@media",
+			"footer",
+			"col-lg-6 col-lg-offset-3",
+			"col-lg-2",
+			"col-lg-2col-lg-6 col-lg-offset-3",
+			"col-lg-2",
+			"16.66666667%",
+			"col-lg-2",
+			".col-lg-2",
+			"24.666667",
+			"row",
+			"row centered",
+			".i",
+			"a {",
+			"row center"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

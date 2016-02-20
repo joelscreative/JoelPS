@@ -49,7 +49,7 @@
 	  
 <!-- <div id="fixedbackground2"></div> -->
 
-	<div id="workwrap" data-parallax="scroll" data-image-src="/assets/img/cubeillo2.jpg">
+	<div id="workwrap" data-parallax="scroll" data-image-src="/assets/img/cubeillo2SM.jpg">
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
@@ -84,9 +84,9 @@
 	<div id="social">
 		<div class="container">
 			<div class="centered">
-				<div class="col-lg-2">
+				<!-- <div class="col-lg-2">
 					<a href="https://www.facebook.com/joel.p.schmidt"><i class="fa fa-facebook"></i></a>
-				</div>
+				</div> -->
 				<div class="col-lg-2">
 					<a href="https://github.com/joelscreative"><i class="fa fa-github"></i></a>
 				</div>
@@ -107,7 +107,7 @@
 		</div><! --/container -->
 	</div><! --/social -->
 
-	<div id="footerwrap">
+	<section id="footerwrap">
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-4">

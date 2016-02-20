@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>JoelPSchmidt - HOME</title>
+	<link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- vanilla CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300|Oswald:400,300' rel='stylesheet' type='text/css'>
+
+<!-- ABOUT ME REVEAL JQuery -->
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+<script>
+	// DOM Ready
+	$(function() {
+	
+		var $el, $ps, $up, totalHeight;
+		
+		$(".letterwrap .reveal-button").click(function() {
+		
+			// IE 7 doesn't even get this far. I didn't feel like dicking with it.
+					
+			totalHeight = 0
+		
+			$el = $(this);
+			$p  = $el.parent();
+			$up = $p.parent();
+			$ps = $up.find("p:not('.read-more')");
+			
+			// measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
+			$ps.each(function() {
+				totalHeight += $(this).outerHeight();
+				// FAIL totalHeight += $(this).css("margin-bottom");
+			});
+						
+			$up
+				.css({
+					// Set height to prevent instant jumpdown when max height is removed
+					"height": $up.height(),
+					"max-height": 9999
+				})
+				.animate({
+					"height": totalHeight
+				});
+			
+			// fade out read-more
+			$p.fadeOut();
+			
+			// prevent jump-down
+			return false;
+				
+		});
+	
+	});
+</script>
+
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+
+          <a class="navbar-brand" href="index.html"> home</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- <li class="active"><a href="index.html">Home</a></li> -->
+            <li><a href="#PROJECTS">PROJECTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#footerwrap">CONTACT</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- <div section="fixedbackground" data-parallax="scroll" data-image-src="/assets/img/cubeilloSM.jpg"></div> -->
+
+	<div id="headerwrap" data-parallax="scroll" data-image-src="/assets/img/cubeilloTINY.jpg" repeat>
+	    <div class="container">
+	    	<img class="logo" src="/assets/img/JS_logo_SVG2.svg">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<!-- <h4>HELLO! MY NAME IS</h4> -->
+					<h1>JOEL P. SCHMIDT</h1>
+					<h2 class="tagline">DEV/DESIGNER/UNICORN.</h2>
+				</div>
+			</div><!--/row -->
+	    </div> <!-- /container -->
+	</div><!--/headerwrap -->
+
+	<section id="about">
+		<a name="about"></a>
+		<div class="container">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+
+		<!--		
+			<div id="aboutwrap">
+			    <div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-lg-offset-3">
+						</div>
+					</div>
+			    </div> 
+			</div>
+		-->
+
+			<div id="joelspic"><h1>HELLO!</h1></div>
+				
+			<div class="letterwrap">
+
+				<!-- <h1>Hello!</h1> -->
+				<p class="about">I'm a designer from the sunny state of Florida, USA. But now I live and work in Shinjuku, Tokyo. 
+				よろしくお願いします!</p>
+
+				<p class="about">My combined love for technology and graphic design led me to UX design. I've had some great opportunities to work at NPOs, schools, and several small businesses internationally. I enjoy playing with interactive technology, and I'm constantly learning and applying new tricks to creatively solve problems. </p>
+
+				<p class="about">I'm a designer at heart, so I design whenever I get a chance. Whether working on a print project for my friend's band, illustrating invitation cards for a relative's wedding, or coding a blog for an volunteer organization. I love what I do, and I do it daily. </p>
+
+				<p class="about">I've got a million hobbies, but my favorites are retro gaming, drinking coffee, riding my bike, creative coding, illustration, and the outdoors. I play air guitar masterfully. I also <strong>love</strong> eating ramen.</p>
+
+				<p class="about">I'm currently seeking opportunities in UI/UX development and design. Feel free to contact me if you need help with any of your web projects, or if you just want to grab a beer sometime. Cheers!</p>
+
+				<p class="about">-Joel</p>
+
+				<!-- REVEAL BUTTON --> 
+				<p class="about">
+				<div class="read-more">
+					<a href="#about" class="reveal-button">Read More...</a>
+				</div>
+			</p>
+				
+
+			</div><!-- /letterwrap -->
+
+			<a class="hvr-sweep-to-top" href="resume.html"> <h2 class="button">See my CV!</h2></a>
+
+				<!-- <h2 style="text-decoration:underline "><a href="assets/JPS_CV2016.pdf">Download my CV</a></h2>
+
+				<p class="japanese" style="text-decoration:underline"><a href="assets/JPS_CV2016_09日本語.pdf">日本語の CVダウンロード</a></p> -->
+			</div>
+
+
+		</div><!--/row -->
+	</div><!--/container -->
+	</section><!-- /about -->
+
+	<section id="PROJECTS">
+		
+	<div class="container">
+
+		<!-- <div class="row-centered mt mb">
+			<section class="iconwrap">	
+				<div class="col-lg-7 col-md-7 col-sm-7 col-centered">
+					<div class="icon iconweb">
+						<a href="http://joelps.com/web.html">
+							<h1 class="icontype">WEB</h1></a>
+					</div>	
+				</div>	
+				<div class="col-lg-7 col-md-7 col-sm-7 col-centered">
+					<div class="icon iconillo">
+						<a href="http://joelps.com/web.html">
+							<h1 class="icontype">ILLUSTRATION</h1></a>
+					</div>	
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-7 col-centered">
+					<div class="icon iconblog">
+						<a href="http://joelps.com/web.html">
+							<h1 class="icontype">BLOG</h1></a>
+					</div>	
+				</div>	
+			</section>	
+		</div> -->
+
+		</div>	
+		<div class="row centered mt mb">
+			<h1 class="headersteal">PROJECTS</h1>
+			<a name="PROJECTS"></a>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="ABC.html"><img src="assets/img/portfolio/folio01.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="EC.html"><img src="assets/img/portfolio/folio02.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="ami.html"><img src="assets/img/portfolio/folio03.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery" id="last">
+				<a href="rubyred.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
+			</div>
+			<div class="centered gallery" id="last">
+				<a href="arthur.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
+			</div>
+			<!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="assets/img/portfolio/folio06.png" class="img-responsive"></a> -->
+			</div>
+		</div><!--/row -->
+	</div><!--/container -->
+	</section>
+	
+	<div id="social">
+		<div class="container">
+			<div class="centered">
+				<!--<div class="social-icon col-lg-3">
+					<a href="https://www.facebook.com/joel.p.schmidt"><i class="fa fa-facebook"></i></a>
+				</div> -->
+				<div class="social-icon col-lg-3">
+					<a href="https://github.com/joelscreative"><i class="fa fa-github"></i></a>
+				</div>
+				<!-- <div class="social-icon col-lg-3">
+					<a href="#"><i class="fa fa-twitter"></i></a>
+				</div> -->
+				<div class="social-icon col-lg-3">
+					<a href="https://jp.linkedin.com/pub/joel-schmidt/21/875/1b"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="social-icon col-lg-3">
+					<a href="https://instagram.com/jpschmidt/"><i class="fa fa-instagram"></i></a>
+				</div>
+				<div class="social-icon col-lg-3">
+					<a href="https://www.tumblr.com/blog/lookfeel"><i class="fa fa-tumblr"></i></a>
+				</div>
+				<!-- <div class="social-icon col-lg-3">
+					<a href="mailto:jponschmidt@gmail.com"><i class="fa fa-envelope"></i></a>
+				</div>
+			 -->
+			</div><!--/row -->
+		</div><!--/container -->
+	</div><!--/social -->
+
+	<section id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
+					<p><b>DEV/DESIGNER/UNICORN.</b></p>
+					<p>Alive and well in Tokyo.</p>
+					</div>	
+					<div class="col-lg-4">
+					<p><a class="mailto" href="mailto:jponschmidt@gmail.com"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;jponschmidt@gmail.com</a></p>
+					<p>&copy; 2016 Joel P. Schmidt </p>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div><!--/footerwrap -->
+	
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/parallax.min.js"></script>
+	<script src="/assets/js/nvbrtoggle.js"></script>
+   
+  </body>
+</html>
