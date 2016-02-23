@@ -313,7 +313,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   margin:0 auto;
   transition: all 0.5s ease;
@@ -3660,7 +3660,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  /*border: 1px solid transparent; CREATES WEIRD BOTTOM BORDER!!*/
 }
 @media (min-width: 768px) {
   .navbar {
