@@ -23,45 +23,6 @@
 
 <!-- ABOUT ME REVEAL JQuery -->
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
-
-<!-- SCROLL HEADER JQuery -->
-<script>
-var navbarHeight = $('.navbar').height(); 
-
-$(window).scroll(function() {
-  var navbarColor = "62,195,246";//color attr for rgba
-  var smallLogoHeight = $('.small-logo').height();
-  var bigLogoHeight = $('.headerwrap').height();
-  
-  
-  var smallLogoEndPos = 0;
-  var smallSpeed = (smallLogoHeight / bigLogoHeight);
-  
-  var ySmall = ($(window).scrollTop() * smallSpeed); 
-  
-  var smallPadding = navbarHeight - ySmall;
-  if (smallPadding > navbarHeight) { smallPadding = navbarHeight; }
-  if (smallPadding < smallLogoEndPos) { smallPadding = smallLogoEndPos; }
-  if (smallPadding < 0) { smallPadding = 0; }
-  
-  $('.small-logo-container ').css({ "padding-top": smallPadding});
-  
-  var navOpacity = ySmall / smallLogoHeight; 
-  if  (navOpacity > 1) { navOpacity = 1; }
-  if (navOpacity < 0 ) { navOpacity = 0; }
-  var navBackColor = 'rgba(' + navbarColor + ',' + navOpacity + ')';
-  $('.navbar').css({"background-color": navBackColor});
-  
-  var shadowOpacity = navOpacity * 0.4;
-  if ( ySmall > 1) {
-    $('.navbar').css({"box-shadow": "0 2px 3px rgba(0,0,0," + shadowOpacity + ")"});
-  } else {
-    $('.navbar').css({"box-shadow": "none"});
-  }  
-});
-</script>
-<!-- SCROLL HEADER JQuery END-->
-
 <script>
 	// DOM Ready
 	$(function() {
@@ -110,26 +71,28 @@ $(window).scroll(function() {
 
   <body>
 
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
+
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <div class="small-logo-container">
-            <a class="small-logo" href="#">↥Small Logo</a>
-          </div>
+
+
+          <a class="navbar-brand" href="index.html"> home</a>
         </div>
         <div class="navbar-collapse collapse">
-          
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Active</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <!-- <li class="active"><a href="index.html">Home</a></li> -->
+            <li><a href="#PROJECTS">PROJECTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#footerwrap">CONTACT</a></li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -315,11 +278,9 @@ $(window).scroll(function() {
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!--<script src="/assets/js/scrollheader.js"></script>-->
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 	<script src="/assets/js/parallax.min.js"></script>
 	<script src="/assets/js/nvbrtoggle.js"></script>
-
    
   </body>
 </html>
