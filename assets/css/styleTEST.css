@@ -116,12 +116,18 @@ h2 {
   text-align: center;
   /*font-family: 'Oswald', sans-serif;
   font-weight: 200;*/
+  background-color:#f7f7f7;
 }
 
 @media (max-width: 600px){
   .about {
     width:90%;
+    background-color:#f7f7f7;
   }
+}
+
+#aboutbody {
+  background-color: #f7f7f7;
 }
 
 .resume {
