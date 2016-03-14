@@ -23,49 +23,67 @@
 
 <!-- ABOUT ME REVEAL JQuery -->
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
-<script>
-	// DOM Ready
-	$(function() {
-	
-		var $el, $ps, $up, totalHeight;
+	<script>
+		// DOM Ready
+		$(function() {
 		
-		$(".letterwrap .reveal-button").click(function() {
-		
-			// IE 7 doesn't even get this far. I didn't feel like dicking with it.
-					
-			totalHeight = 0
-		
-			$el = $(this);
-			$p  = $el.parent();
-			$up = $p.parent();
-			$ps = $up.find("p:not('.read-more')");
+			var $el, $ps, $up, totalHeight;
 			
-			// measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
-			$ps.each(function() {
-				totalHeight += $(this).outerHeight();
-				// FAIL totalHeight += $(this).css("margin-bottom");
-			});
+			$(".letterwrap .reveal-button").click(function() {
+			
+				// IE 7 doesn't even get this far. I didn't feel like dicking with it.
 						
-			$up
-				.css({
-					// Set height to prevent instant jumpdown when max height is removed
-					"height": $up.height(),
-					"max-height": 9999
-				})
-				.animate({
-					"height": totalHeight
-				});
+				totalHeight = 0
 			
-			// fade out read-more
-			$p.fadeOut();
-			
-			// prevent jump-down
-			return false;
+				$el = $(this);
+				$p  = $el.parent();
+				$up = $p.parent();
+				$ps = $up.find("p:not('.read-more')");
 				
+				// measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
+				$ps.each(function() {
+					totalHeight += $(this).outerHeight();
+					// FAIL totalHeight += $(this).css("margin-bottom");
+				});
+							
+				$up
+					.css({
+						// Set height to prevent instant jumpdown when max height is removed
+						"height": $up.height(),
+						"max-height": 9999
+					})
+					.animate({
+						"height": totalHeight
+					});
+				
+				// fade out read-more
+				$p.fadeOut();
+				
+				// prevent jump-down
+				return false;
+					
+			});
+		
 		});
-	
+	</script>
+
+	<!-- SMOOTHSCROLL JQ -->
+	<script>
+		$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
 	});
-</script>
+	</script>
 
   </head>
 
@@ -100,14 +118,14 @@
 
     <!-- <div section="fixedbackground" data-parallax="scroll" data-image-src="/assets/img/cubeilloSM.jpg"></div> -->
 
-	<div id="headerwrap" data-parallax="scroll" data-image-src="/assets/img/transgradientTALL.jpg">
+	<div id="headerwrap hidden-print" data-parallax="scroll" data-image-src="/assets/img/transgradientTALLEST.jpg">
 	    <div class="container">
 	    	<img class="logo" src="/assets/img/JS_logo_SVG2.svg">
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
 					<!-- <h4>HELLO! MY NAME IS</h4> -->
 					<h1>JOEL P. SCHMIDT</h1>
-					<h2 class="tagline">DEV/DESIGNER/UNICORN.</h2>
+					<h2 class="tagline">DEV/DESIGNER/NERD.</h2>
 				</div>
 			</div><!--/row -->
 	    </div> <!-- /container -->
