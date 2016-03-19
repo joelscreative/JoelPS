@@ -898,7 +898,7 @@ RESPONSIVE HEADER END
 
 #joelspic {
   background: url(/assets/img/joelspic2.jpg) no-repeat center top;
-  vertical-align: center;
+  vertical-align: middle;
   margin-top: 110px;
   margin-bottom: 30px;
   margin-right: auto;
