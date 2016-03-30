@@ -15,14 +15,14 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- vanilla CSS -->
-    <link href="assets/css/styleTEST.css" rel="stylesheet">
+    <!-- custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
     
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300|Oswald:400,300' rel='stylesheet' type='text/css'>
 
-	<!-- ABOUT ME REVEAL JQuery -->
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+<!-- ABOUT ME REVEAL JQuery -->
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
 	<script>
 		// DOM Ready
 		$(function() {
@@ -68,21 +68,21 @@
 	</script>
 
 	<!-- SMOOTHSCROLL JQ -->
-<script>
-	$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
+	<script>
+		$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
 	</script>
 
   </head>
@@ -101,15 +101,16 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="index.html">home</a>
-        </div>
 
+          <a class="navbar-brand" href="index.html"> home</a>
+        </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <!-- <li class="active"><a href="index.html">Home</a></li> -->
             <li><a href="#PROJECTS">PROJECTS</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#footerwrap">CONTACT</a></li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -225,13 +226,13 @@
 				<a href="EC.html"><img src="assets/img/portfolio/folio02.png" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="ami.html"><img src="assets/img/portfolio/folio03.png" class="img-responsive"></a>
+				<a href="masatoshi.html"><img src="assets/img/portfolio/masatoshilogo.png" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery" id="last">
-				<a href="rubyred.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
+				<a href="arthur.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
 			</div>
 			<div class="centered gallery" id="last">
-				<a href="arthur.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
+				<a href="rubyred.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
 			</div>
 			<!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
 				<a href="work.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
@@ -276,7 +277,7 @@
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-4">
-					<p><b>DEV/DESIGNER/UNICORN.</b></p>
+					<p><b>DEV/DESIGNER/NERD.</b></p>
 					<p>Alive and well in Tokyo.</p>
 					</div>	
 					<div class="col-lg-4">
@@ -294,7 +295,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    
+    <!-- FOR PARALLAX -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
     <script src="assets/js/bootstrap.min.js"></script>
 	<script src="/assets/js/parallax.min.js"></script>
 	<script src="/assets/js/nvbrtoggle.js"></script>
