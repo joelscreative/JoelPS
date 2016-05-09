@@ -3,7 +3,7 @@
     // Visit http://wbond.net/sublime_packages/sftp/settings for help
     
     // sftp, ftp or ftps
-    "type": "ftp",
+    "type": "sftp",
 
     "sync_down_on_open": true,
     "sync_same_age": true,

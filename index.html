@@ -19,71 +19,17 @@
     <link href="assets/css/style.css" rel="stylesheet">
     
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
     <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300|Oswald:400,300' rel='stylesheet' type='text/css'>
 
-<!-- ABOUT ME REVEAL JQuery -->
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
-	<script>
-		// DOM Ready
-		$(function() {
-		
-			var $el, $ps, $up, totalHeight;
-			
-			$(".letterwrap .reveal-button").click(function() {
-			
-				// IE 7 doesn't even get this far. I didn't feel like dicking with it.
-						
-				totalHeight = 0
-			
-				$el = $(this);
-				$p  = $el.parent();
-				$up = $p.parent();
-				$ps = $up.find("p:not('.read-more')");
-				
-				// measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
-				$ps.each(function() {
-					totalHeight += $(this).outerHeight();
-					// FAIL totalHeight += $(this).css("margin-bottom");
-				});
-							
-				$up
-					.css({
-						// Set height to prevent instant jumpdown when max height is removed
-						"height": $up.height(),
-						"max-height": 9999
-					})
-					.animate({
-						"height": totalHeight
-					});
-				
-				// fade out read-more
-				$p.fadeOut();
-				
-				// prevent jump-down
-				return false;
-					
-			});
-		
-		});
-	</script>
+    <!-- hover cards -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/default.css" /> -->
 
-	<!-- SMOOTHSCROLL JQ -->
-	<script>
-		$(function() {
-	  $('a[href*="#"]:not([href="#"])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html, body').animate({
-	          scrollTop: target.offset().top
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
-	});
-	</script>
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+
+	<script src="assets/js/modernizr.custom.js"></script>
+
+
 
   </head>
 
@@ -147,14 +93,15 @@
 			    </div> 
 			</div>
 		-->
-
+			<div id="joelspicwrap">
 			<div id="joelspic"><h1>HELLO!</h1></div>
-				
+			</div>
+
 			<div class="letterwrap">
 
 				<!-- <h1>Hello!</h1> -->
 				<p class="about">I'm a designer from the sunny state of Florida, USA. But now I live and work in Shinjuku, Tokyo. 
-				よろしくお願いします!</p>
+				<span class="nihongo">よろしくお願いします!</span></p>
 
 				<p class="about">My combined love for technology and graphic design led me to UX design. I've had some great opportunities to work at NPOs, schools, and several small businesses internationally. I enjoy playing with interactive technology, and I'm constantly learning and applying new tricks to creatively solve problems. </p>
 
@@ -219,7 +166,8 @@
 
 		<div class="row centered mt mb">
 			<h1 class="projectsheader">PROJECTS</h1>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+
+			<!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
 				<a href="ABC.html"><img src="assets/img/portfolio/folio01.png" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
@@ -233,12 +181,63 @@
 			</div>
 			<div class="centered gallery" id="last">
 				<a href="rubyred.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
-			</div>
-			<!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/folio06.png" class="img-responsive"></a> -->
+			</div> -->
+
+			<ul class="grid cs-style-5">
+				<li>
+					<figure>
+						<img src="assets/img/portfolio/folio01.png" alt="portfolio work 1">
+						<figcaption>
+							<h3>ABC English School</h3>
+							<span>WordPress Customization</span>
+							<a href="ABC.html">Learn More...</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="assets/img/portfolio/folio02.png" alt="portfolio work 2">
+						<figcaption>
+							<h3>Earth Camp</h3>
+							<span>WordPress Customization</span>
+							<a href="EC.html">Learn More...</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="assets/img/portfolio/masatoshilogo.png" alt="portfolio work 3">
+						<figcaption>
+							<h3>Masatoshi Yamashiro</h3>
+							<span>Photography Portfolio</span>
+							<a href="masatoshi.html">Learn More...</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="assets/img/portfolio/folio05.png" alt="portfolio work 4">
+						<figcaption>
+							<h3>Arthur English Academy</h3>
+							<span>Custom WordPress Theme</span>
+							<a href="arthur.html">Learn More...</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li class="centered">
+					<figure>
+						<img src="assets/img/portfolio/folio04.png" alt="portfolio work 4">
+						<figcaption>
+							<h3>Ruby Reds</h3>
+							<span>Landing Page</span>
+							<a href="rubyred.html">Learn More...</a>
+						</figcaption>
+					</figure>
+				</li>
+
+			</ul>
+
+
 			</div>
 		</div><!--/row -->
 	</div><!--/container -->
@@ -302,6 +301,73 @@
     <script src="assets/js/bootstrap.min.js"></script>
 	<script src="/assets/js/parallax.min.js"></script>
 	<script src="/assets/js/nvbrtoggle.js"></script>
+	<!-- ABOUT ME REVEAL JQuery -->
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+	<script>
+		// DOM Ready
+		$(function() {
+		
+			var $el, $ps, $up, totalHeight;
+			
+			$(".letterwrap .reveal-button").click(function() {
+			
+				// IE 7 doesn't even get this far. I didn't feel like dicking with it.
+						
+				totalHeight = 0
+			
+				$el = $(this);
+				$p  = $el.parent();
+				$up = $p.parent();
+				$ps = $up.find("p:not('.read-more')");
+				
+				// measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
+				$ps.each(function() {
+					totalHeight += $(this).outerHeight();
+					// FAIL totalHeight += $(this).css("margin-bottom");
+				});
+							
+				$up
+					.css({
+						// Set height to prevent instant jumpdown when max height is removed
+						"height": $up.height(),
+						"max-height": 9999
+					})
+					.animate({
+						"height": totalHeight
+					});
+				
+				// fade out read-more
+				$p.fadeOut();
+				
+				// prevent jump-down
+				return false;
+					
+			});
+		
+		});
+	</script>
+
+	<!-- SMOOTHSCROLL JQ -->
+	<script>
+		$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
    
+	<!-- hover cards -->
+	<script src="assets/js/toucheffects.js"></script>
+
+
   </body>
 </html>

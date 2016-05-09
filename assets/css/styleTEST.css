@@ -16,6 +16,10 @@
     text-shadow: none;
 }
 
+#data-image-src {
+    background-repeat: repeat;
+    background-size: inherit;
+}
 
 /*
  * A better looking default horizontal rule
@@ -126,6 +130,10 @@ h2 {
   }
 }
 
+.nihongo {
+  font-size: .8em;
+}
+
 #aboutbody {
   background-color: #f7f7f7;
 }
@@ -140,6 +148,13 @@ h2 {
   text-align: center;
   /*font-family: 'Oswald', sans-serif;
   font-weight: 200;*/
+}
+
+@media (max-width: 600px){
+  .resume {
+    width:90%;
+    background-color:#f7f7f7;
+  }
 }
 
 .container h4 {
@@ -211,16 +226,6 @@ h2 {
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
-
-.panel {
-  -webkit-transform: translateZ( 0 );
-    transform: translateZ( 0 );
-    -webkit-transition: -webkit-transform 0.6s ease-in-out;
-    transition: transform 0.6s ease-in-out;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
 
 /*====================================================================
 BUTTONS
@@ -901,7 +906,7 @@ RESPONSIVE HEADER END
 
 #joelspic {
   background: url(/assets/img/joelspic2.jpg) no-repeat center top;
-  vertical-align: center;
+  vertical-align: middle;
   margin-top: 110px;
   margin-bottom: 30px;
   margin-right: auto;
@@ -1050,7 +1055,7 @@ h1{
   color: #CFCFCF;
   /* line-height: 4; */
   font-size: 2rem;
-  letter-spacing: 30px;
+  letter-spacing: 20px;
   /* margin-top: 5px; */
   /*border-bottom: 1px solid;*/
   text-align: center;
@@ -1058,8 +1063,9 @@ h1{
   margin: 0 auto;
   /* margin-top: 50px; */
   box-shadow: 0px -12px 12px -13px rgba(0,0,0,.2) inset;
-  padding-left: 20px; 
+  padding-left: 20px;
   border-bottom: 50%;
+  line-height: 3rem;
 }
 
 .projectsheader {
