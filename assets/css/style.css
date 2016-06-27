@@ -162,7 +162,7 @@ h2 {
   height:auto;
   max-width: 300px;
   max-height: 300px;
-  margin: 40px 0px 0 0;
+  margin: 13% 0px 0 0;
   padding-bottom: 10px;
   line-height: 1em;
   -webkit-filter: drop-shadow( 4px 4px 0px #cbcbcb );
@@ -362,7 +362,7 @@ BUTTONS
 }
 
 p.japanese {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
 }
 
 /*==========ANIMATED TOGGLE BUTTON=============*/
@@ -419,12 +419,12 @@ p.japanese {
   background: transparent;
   margin-top: 0px;
   margin-bottom: -50px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   text-align:center;
   /*background-attachment: fixed;*/
   /*background-position: center center;*/
   background-position: fixed;
-  height: 420px;
+  height: 100vh;
   width: 100%;
   /*-webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -437,7 +437,7 @@ p.japanese {
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
-  background-size:cover;
+  background-size: initial;
 }
 
 #headerwrap h1 {

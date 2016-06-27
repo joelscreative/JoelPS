@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"repeat",
+				"repeat"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"magin",
 				"margin-bottom"
 			],
@@ -34,10 +46,6 @@
 			[
 				"di",
 				"display"
-			],
-			[
-				"back",
-				"background-size"
 			],
 			[
 				"margin",
@@ -82,10 +90,6 @@
 			[
 				"headers",
 				"headersgrey"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"l",
@@ -215,7 +219,7 @@
 			"file": "assets/css/bootstrap.css",
 			"settings":
 			{
-				"buffer_size": 122231,
+				"buffer_size": 122317,
 				"line_ending": "Unix"
 			}
 		},
@@ -231,7 +235,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 6017,
+				"buffer_size": 6170,
 				"line_ending": "Unix"
 			}
 		},
@@ -239,31 +243,15 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 7265,
+				"buffer_size": 7951,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "work.html",
+			"file": "assets/css/styleTEST.css",
 			"settings":
 			{
-				"buffer_size": 4697,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "3columns",
-			"settings":
-			{
-				"buffer_size": 188,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/style.css",
-			"settings":
-			{
-				"buffer_size": 18373,
+				"buffer_size": 21844,
 				"line_ending": "Unix"
 			}
 		},
@@ -271,7 +259,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8277,
+				"buffer_size": 12085,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "indexTEST.html",
+			"settings":
+			{
+				"buffer_size": 12250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/component.css",
+			"settings":
+			{
+				"buffer_size": 9257,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,7 +283,7 @@
 			"file": "rubyred.html",
 			"settings":
 			{
-				"buffer_size": 4639,
+				"buffer_size": 4937,
 				"line_ending": "Unix"
 			}
 		},
@@ -287,7 +291,7 @@
 			"file": "ABC.html",
 			"settings":
 			{
-				"buffer_size": 5018,
+				"buffer_size": 5318,
 				"line_ending": "Unix"
 			}
 		},
@@ -295,7 +299,7 @@
 			"file": "ami.html",
 			"settings":
 			{
-				"buffer_size": 4701,
+				"buffer_size": 5001,
 				"line_ending": "Unix"
 			}
 		},
@@ -303,7 +307,7 @@
 			"file": "EC.html",
 			"settings":
 			{
-				"buffer_size": 4863,
+				"buffer_size": 5163,
 				"line_ending": "Unix"
 			}
 		},
@@ -311,7 +315,15 @@
 			"file": "arthur.html",
 			"settings":
 			{
-				"buffer_size": 4769,
+				"buffer_size": 5135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sftp-config.json",
+			"settings":
+			{
+				"buffer_size": 1153,
 				"line_ending": "Unix"
 			}
 		}
@@ -344,6 +356,16 @@
 	},
 	"file_history":
 	[
+		"/Users/Joel/Desktop/Projects/JoelPS/assets/css/style.css",
+		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/sftp-config.json",
+		"/Users/Joel/Desktop/Projects/JoelPS/sftp-config-alt.json",
+		"/Users/Joel/Desktop/Projects/JoelPS/sftp-config.json",
+		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/joelps",
+		"/Users/Joel/Desktop/Projects/email-template/email6.html",
+		"/Users/Joel/Desktop/Projects/JoelPS/work.html",
+		"/Users/Joel/Desktop/Projects/JoelPS/3columns",
+		"/Users/Joel/Desktop/Projects/JoelPS/JPS_PORTFOLIO.sublime-project",
+		"/Users/Joel/Downloads/CaptionHoverEffects/index3.html",
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/css/styleold.css",
 		"/Users/Joel/Desktop/Projects/JoelPS/homepage restore/assets/css/magnific.css",
 		"/Users/Joel/Desktop/Projects/JoelPS/homepage restore/assets/css/style.css",
@@ -360,9 +382,7 @@
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/fonts/glyphicons-halflings-regular.svg",
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/fonts/FontAwesome.otf",
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/js/parallax.min.js",
-		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/joelps",
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/js/parallax2.js",
-		"/Users/Joel/Desktop/Projects/JoelPS/sftp-config.json",
 		"/Users/Joel/Desktop/Projects/Arthur/style.css",
 		"/Users/Joel/Desktop/Projects/Arthur/footer.php",
 		"/Users/Joel/Desktop/Projects/Arthur/header.php",
@@ -446,7 +466,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 102.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -457,6 +477,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"social",
+			"joelspic",
+			"@media",
+			"joelspic",
+			"@media",
+			"smooth",
+			"passive",
+			"TEST",
+			".about",
+			"nihongo",
+			".about",
+			"project type",
+			"See More",
+			"take a look",
+			"by",
+			"upload",
 			"          <!-- <a class=\"navbar-brand\" href=\"index.html\">WORK</a> -->\n          <!-- <a class=\"navbar-brand\" href=\"index.html\">WORK</a> -->\n\n\n<!-- <a class=\"navbar-brand\" href=\"index.html\">WORK</a> -->",
 			"          <!-- <a class=\"navbar-brand\" href=\"index.html\">WORK</a> -->\n          <!-- <a class=\"navbar-brand\" href=\"index.html\">WORK</a> -->\n<!-- <a class=\"navbar-brand\" href=\"index.html\">WORK</a> -->",
 			"logo",
@@ -568,23 +604,7 @@
 			".resume",
 			"align",
 			".resume",
-			"991",
-			"headersgrey",
-			"font",
-			"fonts",
-			"oswald",
-			"resume",
-			"oswald",
-			".resume",
-			"cvwrap",
-			"p",
-			"works",
-			"workds",
-			"headersgrey",
-			"logo",
-			"cvwrap",
-			"h1",
-			"cv"
+			"991"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -610,7 +630,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -618,15 +638,15 @@
 					"file": "assets/css/bootstrap.css",
 					"settings":
 					{
-						"buffer_size": 122231,
+						"buffer_size": 122317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								122231,
-								122231
+								122317,
+								122317
 							]
 						],
 						"settings":
@@ -639,7 +659,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 127833.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -680,15 +700,15 @@
 					"file": "about.html",
 					"settings":
 					{
-						"buffer_size": 6017,
+						"buffer_size": 6170,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2300,
-								4328
+								0,
+								0
 							]
 						],
 						"settings":
@@ -699,7 +719,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2493.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -709,15 +729,15 @@
 					"file": "resume.html",
 					"settings":
 					{
-						"buffer_size": 7265,
+						"buffer_size": 7951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6470,
-								6470
+								0,
+								0
 							]
 						],
 						"settings":
@@ -735,77 +755,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "work.html",
+					"file": "assets/css/styleTEST.css",
 					"settings":
 					{
-						"buffer_size": 4697,
+						"buffer_size": 21844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								817,
-								817
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "3columns",
-					"settings":
-					{
-						"buffer_size": 188,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								188,
-								83
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "assets/css/style.css",
-					"settings":
-					{
-						"buffer_size": 18373,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5397,
-								5397
+								529,
+								529
 							]
 						],
 						"settings":
@@ -818,25 +779,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5535.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8277,
+						"buffer_size": 12085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1412,
-								1463
+								3120,
+								3120
 							]
 						],
 						"settings":
@@ -844,10 +805,71 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 608.0,
+						"translation.y": 6719.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "indexTEST.html",
+					"settings":
+					{
+						"buffer_size": 12250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2543,
+								2543
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/css/component.css",
+					"settings":
+					{
+						"buffer_size": 9257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8804,
+								8804
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8467.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -857,15 +879,15 @@
 					"file": "rubyred.html",
 					"settings":
 					{
-						"buffer_size": 4639,
+						"buffer_size": 4937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1653,
-								1634
+								0,
+								0
 							]
 						],
 						"settings":
@@ -876,7 +898,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 634.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -886,15 +908,15 @@
 					"file": "ABC.html",
 					"settings":
 					{
-						"buffer_size": 5018,
+						"buffer_size": 5318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1640,
-								1602
+								0,
+								0
 							]
 						],
 						"settings":
@@ -905,7 +927,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 711.0,
+						"translation.y": 1109.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -915,15 +937,15 @@
 					"file": "ami.html",
 					"settings":
 					{
-						"buffer_size": 4701,
+						"buffer_size": 5001,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1616,
-								1578
+								0,
+								0
 							]
 						],
 						"settings":
@@ -934,7 +956,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 645.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -944,15 +966,15 @@
 					"file": "EC.html",
 					"settings":
 					{
-						"buffer_size": 4863,
+						"buffer_size": 5163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1650,
-								1612
+								0,
+								0
 							]
 						],
 						"settings":
@@ -963,7 +985,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 714.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -973,15 +995,15 @@
 					"file": "arthur.html",
 					"settings":
 					{
-						"buffer_size": 4769,
+						"buffer_size": 5135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1651,
-								1613
+								2777,
+								2777
 							]
 						],
 						"settings":
@@ -992,7 +1014,38 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 538.0,
+						"translation.y": 1459.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "sftp-config.json",
+					"settings":
+					{
+						"buffer_size": 1153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
