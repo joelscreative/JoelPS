@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
 				"back",
 				"background-color"
 			],
 			[
 				"repeat",
 				"repeat"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"magin",
@@ -219,7 +219,7 @@
 			"file": "assets/css/bootstrap.css",
 			"settings":
 			{
-				"buffer_size": 122317,
+				"buffer_size": 122374,
 				"line_ending": "Unix"
 			}
 		},
@@ -232,6 +232,14 @@
 			}
 		},
 		{
+			"file": "masatoshi.html",
+			"settings":
+			{
+				"buffer_size": 5400,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "about.html",
 			"settings":
 			{
@@ -240,10 +248,10 @@
 			}
 		},
 		{
-			"file": "resume.html",
+			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 7951,
+				"buffer_size": 27003,
 				"line_ending": "Unix"
 			}
 		},
@@ -251,15 +259,7 @@
 			"file": "assets/css/styleTEST.css",
 			"settings":
 			{
-				"buffer_size": 21844,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 12085,
+				"buffer_size": 27003,
 				"line_ending": "Unix"
 			}
 		},
@@ -267,7 +267,31 @@
 			"file": "indexTEST.html",
 			"settings":
 			{
-				"buffer_size": 12250,
+				"buffer_size": 17253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 17253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog.html",
+			"settings":
+			{
+				"buffer_size": 9794,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/parallax.min.js",
+			"settings":
+			{
+				"buffer_size": 6073,
 				"line_ending": "Unix"
 			}
 		},
@@ -283,7 +307,7 @@
 			"file": "rubyred.html",
 			"settings":
 			{
-				"buffer_size": 4937,
+				"buffer_size": 4979,
 				"line_ending": "Unix"
 			}
 		},
@@ -291,15 +315,7 @@
 			"file": "ABC.html",
 			"settings":
 			{
-				"buffer_size": 5318,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ami.html",
-			"settings":
-			{
-				"buffer_size": 5001,
+				"buffer_size": 5360,
 				"line_ending": "Unix"
 			}
 		},
@@ -307,7 +323,7 @@
 			"file": "EC.html",
 			"settings":
 			{
-				"buffer_size": 5163,
+				"buffer_size": 5214,
 				"line_ending": "Unix"
 			}
 		},
@@ -315,7 +331,7 @@
 			"file": "arthur.html",
 			"settings":
 			{
-				"buffer_size": 5135,
+				"buffer_size": 5191,
 				"line_ending": "Unix"
 			}
 		},
@@ -323,7 +339,23 @@
 			"file": "sftp-config.json",
 			"settings":
 			{
-				"buffer_size": 1153,
+				"buffer_size": 1155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resume.html",
+			"settings":
+			{
+				"buffer_size": 8003,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lookbook.html",
+			"settings":
+			{
+				"buffer_size": 5252,
 				"line_ending": "Unix"
 			}
 		}
@@ -356,6 +388,14 @@
 	},
 	"file_history":
 	[
+		"/Users/Joel/Desktop/Projects/JoelPS/indexTEST.html",
+		"/Users/Joel/Desktop/Projects/JoelPS/forprint.html",
+		"/Users/Joel/Desktop/Projects/JoelPS/index.pretty.html",
+		"/Users/Joel/Desktop/Projects/email-template/email10.html",
+		"/Users/Joel/Desktop/Projects/JoelPS/ami.html",
+		"/Users/Joel/Desktop/Projects/email-template/email7.html",
+		"/Users/Joel/Desktop/Projects/JoelPS/assets/css/styleTEST.css",
+		"/Users/Joel/Desktop/Projects/JoelPS/assets/js/parallax.js",
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/css/style.css",
 		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/sftp-config.json",
 		"/Users/Joel/Desktop/Projects/JoelPS/sftp-config-alt.json",
@@ -378,7 +418,6 @@
 		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/Joel/Desktop/Projects/JoelPS/indexparallax.html",
 		"/Users/Joel/Desktop/Projects/JoelPS/amiold.html",
-		"/Users/Joel/Desktop/Projects/JoelPS/assets/js/parallax.js",
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/fonts/glyphicons-halflings-regular.svg",
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/fonts/FontAwesome.otf",
 		"/Users/Joel/Desktop/Projects/JoelPS/assets/js/parallax.min.js",
@@ -477,6 +516,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<ul class=\"nav navbar-nav navbar-right\">\n                    <!-- <li class=\"active\"><a href=\"index.html\">Home</a></li> -->\n                    <li><a href=\"#PROJECTS\">PROJECTS</a></li>\n                    <li><a href=\"#about\">ABOUT</a></li>\n                    <li><a href=\"#footerwrap\">CONTACT</a></li>\n                </ul>",
+			"<ul class=\"nav navbar-nav navbar-right\">\n                    <!-- <li class=\"active\"><a href=\"index.html\">Home</a></li> -->\n                    <li><a href=\"#PROJECTS\">PROJECTS</a></li>\n                    <li><a href=\"#about\">ABOUT</a></li>\n                    <li><a href=\"#footerwrap\">CONTACT</a></li>\n\n                </ul>",
+			"ribbon",
+			"ribbon-content",
+			"ribbon",
+			"speed",
+			"h1",
 			"social",
 			"joelspic",
 			"@media",
@@ -597,14 +643,7 @@
 			"resume",
 			"about",
 			".about",
-			".resume",
-			"cvwrap",
-			"headerwrap",
-			"headersgrey",
-			".resume",
-			"align",
-			".resume",
-			"991"
+			".resume"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -612,6 +651,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<ul class=\"nav navbar-nav navbar-right\">\n                    <!-- <li class=\"active\"><a href=\"index.html\">Home</a></li> -->\n                    <li><a href=\"#PROJECTS\">PROJECTS</a></li>\n                    <li><a href=\"#about\">ABOUT</a></li>\n                    <li><a href=\"#footerwrap\">CONTACT</a></li>\n                    <li><a href=\"/blog.html\">BLOG</a></li>\n                </ul>",
 			"<a class=\"navbar-brand\" href=\"index.html\">WORK</a>",
 			"#BBB",
 			"cubeillobwSM.jpg",
@@ -630,7 +670,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -638,15 +678,15 @@
 					"file": "assets/css/bootstrap.css",
 					"settings":
 					{
-						"buffer_size": 122317,
+						"buffer_size": 122374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								122317,
-								122317
+								425,
+								425
 							]
 						],
 						"settings":
@@ -697,6 +737,35 @@
 				},
 				{
 					"buffer": 2,
+					"file": "masatoshi.html",
+					"settings":
+					{
+						"buffer_size": 5400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1854,
+								1854
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 703.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "about.html",
 					"settings":
 					{
@@ -725,11 +794,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "resume.html",
+					"buffer": 4,
+					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 7951,
+						"buffer_size": 27003,
 						"regions":
 						{
 						},
@@ -737,36 +806,7 @@
 						[
 							[
 								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/css/styleTEST.css",
-					"settings":
-					{
-						"buffer_size": 21844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								529,
-								529
+								27003
 							]
 						],
 						"settings":
@@ -779,25 +819,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3210.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "index.html",
+					"file": "assets/css/styleTEST.css",
 					"settings":
 					{
-						"buffer_size": 12085,
+						"buffer_size": 27003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3120,
-								3120
+								27003,
+								27003
 							]
 						],
 						"settings":
@@ -805,11 +845,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6719.0,
+						"translation.y": 20344.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -819,15 +860,15 @@
 					"file": "indexTEST.html",
 					"settings":
 					{
-						"buffer_size": 12250,
+						"buffer_size": 17253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2543,
-								2543
+								17253,
+								17253
 							]
 						],
 						"settings":
@@ -836,7 +877,39 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10937.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 17253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								17253
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -845,7 +918,68 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
+					"file": "blog.html",
+					"settings":
+					{
+						"buffer_size": 9794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3538,
+								3538
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2589.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "assets/js/parallax.min.js",
+					"settings":
+					{
+						"buffer_size": 6073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2983,
+								2983
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 29748.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "assets/css/component.css",
 					"settings":
 					{
@@ -869,93 +1003,6 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8467.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "rubyred.html",
-					"settings":
-					{
-						"buffer_size": 4937,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "ABC.html",
-					"settings":
-					{
-						"buffer_size": 5318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1109.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "ami.html",
-					"settings":
-					{
-						"buffer_size": 5001,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -963,18 +1010,18 @@
 				},
 				{
 					"buffer": 11,
-					"file": "EC.html",
+					"file": "rubyred.html",
 					"settings":
 					{
-						"buffer_size": 5163,
+						"buffer_size": 4979,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1834,
+								1834
 							]
 						],
 						"settings":
@@ -985,25 +1032,25 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 858.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 12,
-					"file": "arthur.html",
+					"file": "ABC.html",
 					"settings":
 					{
-						"buffer_size": 5135,
+						"buffer_size": 5360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2777,
-								2777
+								1825,
+								1825
 							]
 						],
 						"settings":
@@ -1014,25 +1061,83 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1459.0,
+						"translation.y": 767.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 13,
-					"file": "sftp-config.json",
+					"file": "EC.html",
 					"settings":
 					{
-						"buffer_size": 1153,
+						"buffer_size": 5214,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								404,
-								404
+								1845,
+								1845
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 890.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "arthur.html",
+					"settings":
+					{
+						"buffer_size": 5191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1850,
+								1850
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 699.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "sftp-config.json",
+					"settings":
+					{
+						"buffer_size": 1155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
 							]
 						],
 						"settings":
@@ -1043,6 +1148,64 @@
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "resume.html",
+					"settings":
+					{
+						"buffer_size": 8003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1759,
+								1759
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 683.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "lookbook.html",
+					"settings":
+					{
+						"buffer_size": 5252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

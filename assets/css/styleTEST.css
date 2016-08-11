@@ -16,10 +16,6 @@
     text-shadow: none;
 }
 
-#data-image-src {
-    background-repeat: repeat;
-    background-size: inherit;
-}
 
 /*
  * A better looking default horizontal rule
@@ -166,7 +162,7 @@ h2 {
   height:auto;
   max-width: 300px;
   max-height: 300px;
-  margin: 40px 0px 0 0;
+  margin: 20% 0px 0 0;
   padding-bottom: 10px;
   line-height: 1em;
   -webkit-filter: drop-shadow( 4px 4px 0px #cbcbcb );
@@ -181,6 +177,7 @@ h2 {
   padding-bottom: 240px;
   margin-top: 50px;
   background-color: #F7f7f7;
+  /* position: inherit; */
 }
 
 #objective {
@@ -246,6 +243,7 @@ BUTTONS
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
   /*margin-top: 50px;*/
+  margin: 10px;
 }
 .hvr-sweep-to-top:before {
   content: "";
@@ -278,6 +276,57 @@ BUTTONS
   text-decoration: none;
   color:#fff;
 }
+.hvr-sweep-to-top2:hover, .hvr-sweep-to-top2:focus, .hvr-sweep-to-top2:active {
+  color: white;
+  text-decoration: none;
+}
+.hvr-sweep-to-top2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  /*margin-top: 50px;*/
+  margin: 10px;
+}
+.hvr-swee-to-top2{
+  background-color: #537e8e !important;
+}
+.hvr-sweep-to-top2:hover:before, .hvr-sweep-to-top2:focus:before, .hvr-sweep-to-top2:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  text-decoration: none;
+  color:#fff;
+}
+.hvr-sweep-to-top2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color:#fff;
+  background: #537e8e;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;/*ADDED PROPERTIES*/
+}
 
 .button {
   text-align: center;
@@ -293,6 +342,20 @@ BUTTONS
   letter-spacing: 0.1em;
 }
 
+.button2 {
+  text-align: center;
+  vertical-align: center;
+  padding:10px;
+  line-height: 1.5em;
+  width:200px;
+  height:60px;
+  margin:0 auto;
+  border-bottom: solid 2px #537e8e !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  letter-spacing: 0.1em;
+}
+
 .button:hover {
   color:#fff;
 }
@@ -301,6 +364,16 @@ BUTTONS
   background-color:#894261;
   border-bottom: #894261;
   letter-spacing: 0em;
+}
+
+.button2:active {
+  background-color:#537e8e;
+  border-bottom: #537e8e;
+  letter-spacing: 0em;
+}
+
+.button2:hover {
+  color:#fff;
 }
 
 .reveal-button {
@@ -366,7 +439,7 @@ BUTTONS
 }
 
 p.japanese {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Ã£Æ’â€™Ã£Æ’Â©Ã£â€šÂ®Ã£Æ’Å½Ã¨Â§â€™Ã£â€šÂ´ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "Ã£Æ’Â¡Ã£â€šÂ¤Ã£Æ’ÂªÃ£â€šÂª", Meiryo, "Ã¯Â¼Â­Ã¯Â¼Â³ Ã¯Â¼Â°Ã£â€šÂ´Ã£â€šÂ·Ã£Æ’Æ’Ã£â€šÂ¯", "MS PGothic", sans-serif;
 }
 
 /*==========ANIMATED TOGGLE BUTTON=============*/
@@ -423,12 +496,12 @@ p.japanese {
   background: transparent;
   margin-top: 0px;
   margin-bottom: -50px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   text-align:center;
   /*background-attachment: fixed;*/
   /*background-position: center center;*/
   background-position: fixed;
-  height: 420px;
+  height: 100vh;
   width: 100%;
   /*-webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -441,7 +514,7 @@ p.japanese {
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
-  background-size:cover;
+  background-size: initial;
 }
 
 #headerwrap h1 {
@@ -490,6 +563,78 @@ p.japanese {
   -o-background-size:cover;
   background-size:cover;
 }
+
+/*ribbon
+____________________________________________________________________*/
+
+.ribbon {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+ /* width: 90%; */
+ position: relative;
+ background: #71b6c2;
+ color: #fff;
+ text-align: center;
+ padding: 1.5em 2em; /* Adjust to suit */
+ /* z-index: 5; */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1.5em;
+ border: 2em solid #61a3ae;
+ z-index: -20;
+ height: 4em;
+}
+.ribbon:before {
+ left: -3em;
+ border-right-width: 2.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -3em;
+ border-left-width: 2.5em;
+ border-right-color: transparent;
+}
+
+strong.ribbon-content {
+  letter-spacing: 1.5em;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #fff;
+  /* width: 0; */
+  /* height: 0; */
+  /* padding: 0; */
+ /* position: absolute;
+  margin-top: -85px;*/
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #548a94 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+.ribbonwrapper{
+  margin: -74px auto 0 auto;
+  width: 70%;
+  /* z-index: 6; */
+}
+
+
+
 
 #cvwrap h1 {
   color:#fff;
@@ -612,7 +757,15 @@ p.japanese {
   .navbar-nav{
     width:100%;
   }
-
+  
+  #carousel1{
+    height:40vh;
+    width: 100%;
+  }
+  #carousel2{
+    height:40vh;
+    width: 100%;
+  }
 
 }
 
@@ -775,6 +928,8 @@ RESPONSIVE HEADER END
 
 }
 
+
+
 /* ==========================================================================
   SERVICES SECTION (with .svg ICONS)
    ========================================================================== */
@@ -924,6 +1079,18 @@ RESPONSIVE HEADER END
   color:#FFF;line-height: 6.2em;
   font-size: 5rem;
 }
+
+#joelspicwrap {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 441px){
+  
+    #joelspic {
+      border-radius: 50%;
+    }
+  }
 
 
 
@@ -1075,7 +1242,7 @@ h1{
     color: #CFCFCF;
     line-height: 8;
     font-size: 2rem;
-    letter-spacing: 30px;
+    letter-spacing: 28px;
     /* margin-top: 5px; */
     /* border-bottom: 1px solid; */
     text-align: center;
@@ -1083,7 +1250,26 @@ h1{
     margin: 0 auto;
     /* margin-top: 50px; */
     box-shadow: 0px -12px 12px -13px rgba(0,0,0,.2) inset;
-    padding-left: 20px;
+    padding: 0px 10px;
+    border-bottom: 50%;
+}
+
+.printheader {
+    background-color: #cfcfcf;
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    line-height: 4;
+    font-size: 2rem;
+    letter-spacing: 28px;
+    /* margin-top: 5px; */
+    /* border-bottom: 1px solid; */
+    text-align: center;
+    vertical-align: middle;
+    margin: 30px auto;
+    /* margin-top: 50px; */
+    box-shadow: 0px -12px 12px -13px rgba(0,0,0,.2) inset;
+    padding: 0px 10px;
     border-bottom: 50%;
 }
 
@@ -1130,4 +1316,70 @@ footer,
   -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
      -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
       transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+/* ==========================================================================
+  FEATHERLIGHT
+   ========================================================================== */
+.item .thumb {
+    width: 13rem;
+    cursor: pointer;
+    float: left;
+    max-height: 150px;
+    background-position: center;
+}
+.printwork {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+#carousel1{
+
+}
+
+.big {
+  height:80rem;
+}
+
+.slide {
+
+}
+
+#thumbcarousel1 {
+
+}
+
+.thumb {
+ background-size: contain;
+}
+
+.thumb img {
+  height: 150%;
+  position: relative;
+  width: 100%;
+}
+
+.clearfix {
+  width: 100%;
+  overflow:hidden;
+}
+
+.carousel-wrapper{
+  width: 200% !important;
+}
+
+/*===============================================================
+BLOG
+===============================================================*/
+li.tumblr_post.tumblr_photo_post {
+    margin: 5em auto 20em auto;
+}
+
+ol.tumblr_posts{
+  list-style-type: none;
+
+}
+
+.tumblr_posts img {
+  width:80%;
 }
