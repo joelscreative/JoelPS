@@ -24,16 +24,20 @@
 
     <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300|Oswald:400,300' rel='stylesheet' type='text/css'>
 
+    <!-- lightbox gallery -->
+    <link type="text/css" rel="stylesheet" href="assets/css/lb-inline.css" />
+
+    <link type="text/css" rel="stylesheet" href="assets/css/lightgallery.css">
+
     <!-- hover cards -->
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/default.css" /> -->
 
     <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
 
     <script src="assets/js/modernizr.custom.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <!-- scrollarama -->
-    <script src="js/jquery.lettering-0.6.1.min.js"></script>
-    <script src="js/jquery.scrollorama.js"></script>
+
 
 
 
@@ -158,31 +162,6 @@
 
     <section id="PROJECTS">
 
-       <!--  <div class="container">
-
-            <div class="row-centered mt mb">
-            <section class="iconwrap">  
-                <div class="col-lg-7 col-md-7 col-sm-7 col-centered">
-                    <div class="icon iconweb">
-                        <a href="http://joelps.com/web.html">
-                            <h1 class="icontype">WEB</h1></a>
-                    </div>  
-                </div>  
-                <div class="col-lg-7 col-md-7 col-sm-7 col-centered">
-                    <div class="icon iconillo">
-                        <a href="http://joelps.com/web.html">
-                            <h1 class="icontype">ILLUSTRATION</h1></a>
-                    </div>  
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-7 col-centered">
-                    <div class="icon iconblog">
-                        <a href="http://joelps.com/web.html">
-                            <h1 class="icontype">BLOG</h1></a>
-                    </div>  
-                </div>  
-            </section>  
-        </div>
-        </div> -->
         <!-- <div class="ribbonwrapper">
         <h1 class="ribbon">
          <strong class="ribbon-content">PROJECTS</strong>
@@ -191,21 +170,6 @@
         <div class="row centered mt mb">
             <h1 class="projectsheader">PROJECTS</h1>
 
-            <!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="ABC.html"><img src="assets/img/portfolio/folio01.png" class="img-responsive"></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="EC.html"><img src="assets/img/portfolio/folio02.png" class="img-responsive"></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="masatoshi.html"><img src="assets/img/portfolio/masatoshilogo.png" class="img-responsive"></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 gallery" id="last">
-                <a href="arthur.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
-            </div>
-            <div class="centered gallery" id="last">
-                <a href="rubyred.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
-            </div> -->
 
             <ul class="grid cs-style-5">
                 <li>
@@ -278,7 +242,71 @@
         <!--/row -->
     </section>
 
-    
+    <h1 class="printheader">PRINT</h1>
+    <section id="printwork">
+          <div class="row">
+
+
+        <div class="demo-gallery">
+            <ul id="lightgallery" class="list-unstyled">
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork000.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb000.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork001.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb001.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="800" data-src="assets/img/printwork/printwork002.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb002.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork003.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb003.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork004.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb004.jpg">
+                    </a>
+                </li>
+            </ul>
+             <ul id="lightgallery" class="list-unstyled">
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork005.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb005.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork006.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb006.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork007.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb007.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork008.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb008.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-10 col-sm-10 col-md-3 col-lg-2" data-responsive="" data-src="assets/img/printwork/printwork009.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="assets/img/printwork/thumbs/printwork_thumb009.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+
 
     <div id="social">
         <div class="container">
@@ -337,13 +365,10 @@
         <!-- Placed at the end of the document so the pages load faster -->
 
         <!-- FOR PARALLAX -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="/assets/js/parallax.min.js"></script>
         <script src="/assets/js/nvbrtoggle.js"></script>
         <!-- ABOUT ME REVEAL JQuery -->
-        <!--<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>-->
         <script>
             // DOM Ready
             $(function() {
@@ -409,120 +434,22 @@
         <!-- hover cards -->
         <script src="assets/js/toucheffects.js"></script>
 
-        <!-- featherlight -->
-
-        <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
-
-        <script src="//code.jquery.com/jquery-latest.js"></script>
-
-        <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <script>
-            $(document).ready(function() {
-                $('.gallery').featherlightGallery({
-                    gallery: {
-                        fadeIn: 300,
-                        fadeOut: 300
-                    },
-                    openSpeed: 300,
-                    closeSpeed: 300
-                });
-                $('.gallery2').featherlightGallery({
-                    gallery: {
-                        next: 'next »',
-                        previous: '« previous'
-                    },
-                    variant: 'featherlight-gallery2'
-                });
-            });
-        </script>
-
-        <!-- SCROLLARAMA -->
-        <script>
-        $(document).ready(function() {
-            
-            // initialize the plugin, pass in the class selector for the sections of content (blocks)
-            var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
-            
-            // assign function to add behavior for onBlockChange event
-            scrollorama.onBlockChange(function() {
-                var i = scrollorama.blockIndex;
-                $('#console')
-                    .css('display','block')
-                    .text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
-            });
-            
-            // lettering.js for coolness
-            $('#title').lettering();
-            $('#title span')
-                .css('display','block')
-                .css('float','left');
-            $('.char9').css('padding-left','6px');
-            
-            // animate the title letters to explode
-            scrollorama
-                .animate('#title',{ duration: 300, property:'zoom', end: 8 })
-                .animate('#author',{ duration: 10, property:'z-index', end: 0 });
-            
-            $('#title span').each(function() {
-                scrollorama
-                    .animate($(this),{ duration: 400, property:'top', end: Math.random()*120-180 })
-                    .animate($(this),{ duration: 300, property:'rotate', start:0, end:Math.random()*720-360 });
-            });
-            
-            // animate some examples
-            scrollorama
-                .animate('#unpin',{ duration:500, property:'padding-top', start:400, pin:true })
-                .animate('#fade-in',{ delay: 400, duration: 300, property:'opacity', start:0 })
-                .animate('#fly-in',{ delay: 400, duration: 300, property:'left', start:-1400, end:0 })
-                .animate('#rotate-in',{ duration: 800, property:'rotate', start:720 })
-                .animate('#zoom-in',{ delay: 200, duration: 600, property:'zoom', start:8 })
-                .animate('#any',{ delay: 700, duration: 200, property:'opacity', start:0 })
-                .animate('#any',{ delay: 800, duration: 200, property:'letter-spacing', start:18 });
-            
-            // animate the parallaxing
-            scrollorama
-                .animate('#parallax2',{ delay: 400, duration: 600, property:'top', start:800, end:-800 })
-                .animate('#parallax3',{ delay: 200, duration: 1200, property:'top', start:500, end:-500 });
-            
-            // animate some easing examples
-            var $easing = $('#easing'),
-                $clone = $easing.clone().appendTo('#examples-easing')
-                                .css({position:'relative',top:'-2.95em'})
-                                .lettering();
-            $easing.css({ color: '#131420', textShadow: '0 1px 0 #363959' });
-            easing_array = [    'easeOutBounce',
-                                'easeOutQuad',
-                                'easeOutCubic',
-                                'easeOutQuart',
-                                'easeOutQuint', 
-                                'easeOutExpo'       ];
-            $clone.find('span')
-                .each( function( idx, el ){
-                    scrollorama.animate( $(this), { delay:400, duration: 500, 
-                                                    property:'top', end: 300,
-                                                    easing: easing_array[idx] });
-                })
-            
+        <!-- lightbox -->
+      <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery();
         });
-    </script>
+        </script>
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="assets/js/lightgallery.js"></script>
+        <script src="assets/js/lg-fullscreen.js"></script>
+        <script src="assets/js/lg-thumbnail.js"></script>
+        <script src="assets/js/lg-video.js"></script>
+        <script src="assets/js/lg-autoplay.js"></script>
+        <script src="assets/js/lg-zoom.js"></script>
+        <script src="assets/js/lg-hash.js"></script>
+        <script src="assets/js/lg-pager.js"></script>
 
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-2821890-9']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
 
 </body>
 

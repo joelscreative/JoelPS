@@ -33,7 +33,7 @@
     left: 0;
     padding: 20px;
     /*background: #71b6c2;*/
-    background-color: #D6D6D6;
+    background-color: #f2f2f2;
     color: #2E5B6C;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 900;
@@ -43,7 +43,7 @@
 .grid figcaption h3 {
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: #a0a0a0;
 	font-family: 'Fira Sans', sans-serif;
 }
 

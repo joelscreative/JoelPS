@@ -267,7 +267,7 @@
 			"file": "indexTEST.html",
 			"settings":
 			{
-				"buffer_size": 17253,
+				"buffer_size": 22135,
 				"line_ending": "Unix"
 			}
 		},
@@ -819,7 +819,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3210.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -850,7 +850,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 20344.0,
+						"translation.y": 22964.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -860,15 +860,15 @@
 					"file": "indexTEST.html",
 					"settings":
 					{
-						"buffer_size": 17253,
+						"buffer_size": 22135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17253,
-								17253
+								14530,
+								14530
 							]
 						],
 						"settings":
@@ -881,7 +881,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10937.0,
+						"translation.y": 5977.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -898,8 +898,8 @@
 						"selection":
 						[
 							[
-								0,
-								17253
+								775,
+								775
 							]
 						],
 						"settings":
@@ -912,7 +912,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 611.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
